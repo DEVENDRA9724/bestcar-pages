@@ -1,0 +1,55 @@
+{
+  "mode": "Built-in image_gen tool",
+  "generatedSession": "01a15657-57b5-7181-93d3-157018695543",
+  "sharedPrompt": "Use case: product-mockup. Asset type: square retail catalogue placeholder photograph for a black, white and gold automotive accessories website. Primary request: {subject}. Photorealistic commercial studio product photography. Warm off-white seamless backdrop (#F4F3EF), subtle natural contact shadow, soft large studio lighting, precise realistic material detail. Centered square composition with generous 15% margins so no object is clipped. Product fills about 70% of the frame. Palette black, neutral grey, off-white and only tiny gold accents. No gradients in background, no logos, no brand names, no people, no watermarks, no captions or text. This is a clearly illustrative generic product concept, not a real branded item.",
+  "assets": [
+    {
+      "category": "android-screens",
+      "subject": "a generic unbranded automotive Android touchscreen head unit in three-quarter front view, black slim bezel and rear metal housing, screen showing a restrained generic dark navigation interface with gold route line, no readable text",
+      "sourceFile": "exec-a81e2e9a-13b8-459f-8f02-af09420bb9c6.png",
+      "output": "/products/sample-android-screens.webp"
+    },
+    {
+      "category": "speakers-amplifiers",
+      "subject": "a pair of high quality unbranded black car audio speakers with detailed woven cones and black metal grilles, plus a compact black amplifier, clean product arrangement",
+      "sourceFile": "exec-68296529-0ea8-4874-b28e-b1e9f0ec53c6.png",
+      "output": "/products/sample-speakers-amplifiers.webp"
+    },
+    {
+      "category": "seat-covers",
+      "subject": "a pair of unbranded black stitched automotive front seat covers fitted over car seats, premium leather texture with understated gold stitching, isolated product display",
+      "sourceFile": "exec-6bfce98a-a40f-4c47-bbfa-febdc9f7cf59.png",
+      "output": "/products/sample-seat-covers.webp"
+    },
+    {
+      "category": "lighting",
+      "subject": "an unbranded automotive ambient lighting kit, coiled black flexible light strips with warm white luminous edges and a small controller, neatly arranged, no coloured lighting",
+      "sourceFile": "exec-ba106e25-e33c-427b-adc8-c1d09f99e0ab.png",
+      "output": "/products/sample-lighting.webp"
+    },
+    {
+      "category": "dashcams",
+      "subject": "an unbranded compact black dual-channel car dashcam with front lens and a small secondary rear camera, realistic camera glass, neat studio arrangement",
+      "sourceFile": "exec-ebd9d13a-64a1-464a-b3dd-02916d3f46d9.png",
+      "output": "/products/sample-dashcams.webp"
+    },
+    {
+      "category": "cameras-safety",
+      "subject": "an unbranded compact black rear parking camera with a mounting bracket and four round black parking sensors, tidy product arrangement",
+      "sourceFile": "exec-3b7681ed-8f9a-4663-b96d-20fcfc95e179.png",
+      "output": "/products/sample-cameras-safety.webp"
+    },
+    {
+      "category": "sun-film",
+      "subject": "a roll of semi-transparent charcoal automotive window film with a partially unrolled curved sheet demonstrating its translucency, no packaging",
+      "sourceFile": "exec-1a3737ad-322e-41c6-b117-318b3a3ed3c3.png",
+      "output": "/products/sample-sun-film.webp"
+    },
+    {
+      "category": "mats-styling",
+      "subject": "a set of premium unbranded black custom-fit automotive floor mats with textured rubber, raised edges, understated gold stitching, layered tidy arrangement",
+      "sourceFile": "exec-a1aab786-046e-47b7-8808-0a0d7611b5a7.png",
+      "output": "/products/sample-mats-styling.webp"
+    }
+  ]
+}

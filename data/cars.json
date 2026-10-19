@@ -1,0 +1,10 @@
+[
+  { "brand": "Hyundai", "model": "Creta", "slug": "creta" },
+  { "brand": "Maruti Suzuki", "model": "Swift", "slug": "swift" },
+  { "brand": "Mahindra", "model": "Thar", "slug": "thar" },
+  { "brand": "Tata", "model": "Nexon", "slug": "nexon" },
+  { "brand": "Toyota", "model": "Innova", "slug": "innova" },
+  { "brand": "Hyundai", "model": "Venue", "slug": "venue" },
+  { "brand": "Maruti Suzuki", "model": "Baleno", "slug": "baleno" },
+  { "brand": "Mahindra", "model": "Scorpio", "slug": "scorpio" }
+]

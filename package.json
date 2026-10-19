@@ -1,0 +1,30 @@
+{
+  "name": "best-car-accessories",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -H 127.0.0.1",
+    "build": "node scripts/sync-catalogue.mjs && node scripts/sync-trust-content.mjs && node scripts/check-catalogue.mjs && next build",
+    "start": "node scripts/preview.mjs",
+    "typecheck": "tsc --noEmit",
+    "catalogue:import": "node scripts/sync-catalogue.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "framer-motion": "^11.18.2",
+    "lucide-react": "^0.468.0",
+    "next": "^14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
+  }
+}

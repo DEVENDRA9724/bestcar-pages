@@ -1,0 +1,29 @@
+{
+  "name": "Best Car Accessories",
+  "phone": "+91 97423 82814",
+  "whatsapp": "919742382814",
+  "address": "Urvashi Complex, No. 15, Mithakhali Circle, Navrangpura, Ahmedabad",
+  "hours": "9:00 AM – 9:00 PM",
+  "rating": "4.9",
+  "reviewCount": "1,600+",
+  "brands": ["Sony", "JBL", "Pioneer", "JVC", "Blaupunkt"],
+  "carBrands": [
+    "Maruti Suzuki",
+    "Hyundai",
+    "Tata",
+    "Mahindra",
+    "Kia",
+    "Toyota",
+    "Honda",
+    "MG",
+    "Volkswagen",
+    "Škoda",
+    "BMW",
+    "Mercedes-Benz",
+    "Other"
+  ],
+  "googleProfileUrl": "",
+  "googleReviewsUrl": "",
+  "googleProfileVerified": false,
+  "ratingVerified": false
+}

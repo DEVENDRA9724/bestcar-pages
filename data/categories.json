@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "android-screens",
+    "name": "Android Screens",
+    "short": "Connected drives start here",
+    "icon": "screen",
+    "intro": "Explore Android screen options for Creta and other popular cars in Ahmedabad. Ask our Mithakhali team about the right screen size, connectivity and installation for your vehicle."
+  },
+  {
+    "slug": "speakers-amplifiers",
+    "name": "Speakers & Amplifiers",
+    "short": "Find your sound",
+    "icon": "audio",
+    "intro": "Explore speakers and amplifiers for car audio installation in Ahmedabad. We can discuss your listening preferences, existing system and fitting requirements."
+  },
+  {
+    "slug": "seat-covers",
+    "name": "Seat Covers",
+    "short": "A fresh feel, made to fit",
+    "icon": "seat",
+    "intro": "Explore car seat covers in Navrangpura. Discuss material, colour and a vehicle-specific fit with the team at Mithakhali Circle."
+  },
+  {
+    "slug": "lighting",
+    "name": "Lighting",
+    "short": "Change the atmosphere",
+    "icon": "light",
+    "intro": "Discover interior and exterior car lighting ideas in Mithakhali. Ask about compatibility, installation and suitable use for your vehicle."
+  },
+  {
+    "slug": "dashcams",
+    "name": "Dashcams",
+    "short": "Keep a record of the road",
+    "icon": "camera",
+    "intro": "Explore dashcam options in Ahmedabad. Discuss recording coverage, power connections, storage and a tidy installation."
+  },
+  {
+    "slug": "cameras-safety",
+    "name": "Cameras & Safety",
+    "short": "A clearer view around you",
+    "icon": "safety",
+    "intro": "Explore parking cameras and safety accessories at Mithakhali Circle. Our team can advise on screen compatibility and fitting."
+  },
+  {
+    "slug": "sun-film",
+    "name": "Sun Film",
+    "short": "Comfort for every journey",
+    "icon": "sun",
+    "intro": "Discuss sun film options with our Ahmedabad team. Ask about visibility, product specifications and applicable local requirements before installation."
+  },
+  {
+    "slug": "mats-styling",
+    "name": "Mats & Styling",
+    "short": "The finishing touches",
+    "icon": "mat",
+    "intro": "Explore car mats and styling accessories in Navrangpura, Ahmedabad. Ask about vehicle-specific coverage, materials and everyday care."
+  }
+]
