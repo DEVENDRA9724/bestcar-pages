@@ -93,6 +93,8 @@ The catalogue preserves universal items under car filters. Price sorting puts un
 
 Connect `DEVENDRA9724/bestcar` to a Cloudflare Pages project. Use production branch `main`, repository root, build command `npm run build`, and output directory `out`. Node.js 22 is selected by `.node-version`.
 
+If the build succeeds but `npx wrangler deploy` fails with "Missing entry-point", Cloudflare is running the Workers deployment flow. Create a **Pages** application through **Workers & Pages → Create application → Pages → Connect to Git** using the settings above. Pages deploys the build output automatically without a separate deploy command. See the recovery steps in [CLOUDFLARE-PAGES.md](CLOUDFLARE-PAGES.md#fix-the-reported-deployment-failure).
+
 The deployment URL is read from Cloudflare's `CF_PAGES_URL` at build time and embedded for metadata, sitemap and WhatsApp product links. Set `NEXT_PUBLIC_SITE_URL` to your final HTTPS domain to override it. See [CLOUDFLARE-PAGES.md](CLOUDFLARE-PAGES.md) for the complete setup. Verify all contact details, map pin and product content before public launch.
 
 ## Accessibility and verification
