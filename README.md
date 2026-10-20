@@ -91,7 +91,7 @@ The catalogue preserves universal items under car filters. Price sorting puts un
 
 ## Deploy to Cloudflare Pages
 
-Connect `DEVENDRA9724/bestcar` to a Cloudflare Pages project. Use production branch `main`, repository root, build command `npm run build`, and output directory `out`. Node.js 22 is selected by `.node-version`.
+Connect `DEVENDRA9724/bestcar-pages` to a Cloudflare Pages project. Use production branch `main`, repository root, build command `npm run build`, and output directory `out`. Node.js 22 is selected by `.node-version`.
 
 If the build succeeds but `npx wrangler deploy` fails with "Missing entry-point", Cloudflare is running the Workers deployment flow. Create a **Pages** application through **Workers & Pages → Create application → Pages → Connect to Git** using the settings above. Pages deploys the build output automatically without a separate deploy command. See the recovery steps in [CLOUDFLARE-PAGES.md](CLOUDFLARE-PAGES.md#fix-the-reported-deployment-failure).
 

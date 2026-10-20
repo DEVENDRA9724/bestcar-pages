@@ -2,7 +2,7 @@
 
 This project is a Next.js static export. It does not require a Worker, Pages Functions, an API key, a database or `@cloudflare/next-on-pages`.
 
-In Cloudflare, open Workers & Pages, create a Pages application, and connect `DEVENDRA9724/bestcar` through the GitHub integration. If already connected, use these settings:
+In Cloudflare, open Workers & Pages, create a Pages application, and connect `DEVENDRA9724/bestcar-pages` through the GitHub integration. If already connected, use these settings:
 
 | Setting | Value |
 | --- | --- |
@@ -15,7 +15,7 @@ In Cloudflare, open Workers & Pages, create a Pages application, and connect `DE
 
 Use `npm run build`, rather than `npx next build`, because it imports the owner CSVs and validates the catalogue before exporting the website. Cloudflare installs dependencies from `package-lock.json`.
 
-`wrangler.toml` also declares the `out` directory for Pages. Its project name is `bestcar`; if deploying to an existing differently named project with Wrangler, use that project's actual name.
+`wrangler.toml` also declares the `out` directory for Pages. Its project name is `bestcar-pages`; if deploying to an existing differently named project with Wrangler, use that project's actual name.
 
 ## Fix the reported deployment failure
 
@@ -31,14 +31,14 @@ This is a Workers deployment command. The repository is configured for Pages, an
 To deploy through Pages:
 
 1. Open **Workers & Pages → Create application → Pages → Connect to Git**. If the creation screen opens on Workers, switch to the Pages option first.
-2. Select GitHub repository **DEVENDRA9724/bestcar** and production branch **main**.
+2. Select GitHub repository **DEVENDRA9724/bestcar-pages** and production branch **main**.
 3. Set the build command to **npm run build**, output directory to **out**, and leave the root directory blank.
 4. Save and deploy. Pages uploads the output after the build automatically; there is no separate deploy command to enter.
 5. Check that the deployment succeeds and open the resulting **pages.dev** address. Check a product page directly as well as the home page.
 
 If the current project's settings require a deploy command such as `npx wrangler deploy`, it is the Workers build flow. Create the Pages project using the steps above. There is no need to delete the existing Worker to complete this setup.
 
-For a separately configured manual Pages upload, the CLI command is `npx wrangler pages deploy out --project-name=bestcar` after building. It requires Cloudflare authentication and an appropriate Pages project. This is not a replacement for setting up Pages Git integration.
+For a separately configured manual Pages upload, the CLI command is `npx wrangler pages deploy out --project-name=bestcar-pages` after building. It requires Cloudflare authentication and an appropriate Pages project. This is not a replacement for setting up Pages Git integration.
 
 References: [Pages Git integration](https://developers.cloudflare.com/pages/get-started/git-integration/) and [Pages direct upload](https://developers.cloudflare.com/pages/get-started/direct-upload/).
 
