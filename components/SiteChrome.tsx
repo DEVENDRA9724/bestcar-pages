@@ -50,7 +50,7 @@ export function Header() {
           <span>
             <Clock size={13} />9 AM – 9 PM, every day <i />{" "}
             <a href={`tel:${business.phone.replace(/\s/g, "")}`}>
-              +91 97423 82814
+              +91 99134 08885
             </a>
           </span>
         </div>
@@ -146,7 +146,7 @@ export function Footer() {
           <div>
             <h3>LET’S CONNECT</h3>
             <a href={`tel:${business.phone.replace(/\s/g, "")}`}>
-              +91 97423 82814
+              +91 99134 08885
             </a>
             <p>9:00 AM – 9:00 PM daily</p>
             <WhatsApp>WhatsApp us</WhatsApp>

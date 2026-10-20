@@ -4,7 +4,7 @@ import Visit from "@/components/Visit";
 export const metadata: Metadata = {
   title: "Visit & Contact | Mithakhali, Ahmedabad",
   description:
-    "Visit Best Car Accessories at Urvashi Complex, Mithakhali Circle, Navrangpura, Ahmedabad. Open daily 9 AM–9 PM. Call or WhatsApp +91 97423 82814.",
+    "Visit Best Car Accessories at Urvashi Complex, Mithakhali Circle, Navrangpura, Ahmedabad. Open daily 9 AM–9 PM. Call or WhatsApp +91 99134 08885.",
   alternates: { canonical: "/contact/" },
 };
 export default function Contact() {

@@ -55,7 +55,7 @@ export default function Privacy() {
       <h2>CONTACT</h2>
       <p>
         For questions about your enquiry or information shared with the
-        business, call <a href="tel:+919742382814">+91 97423 82814</a> or visit
+        business, call <a href="tel:+919913408885">+91 99134 08885</a> or visit
         the store during opening hours, 9 AM–9 PM daily.
       </p>
     </article>
