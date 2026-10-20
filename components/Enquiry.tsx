@@ -33,14 +33,16 @@ export function WhatsApp({
 export function Call({
   children = "Call now",
   className = "",
+  phone = business.phone,
 }: {
   children?: React.ReactNode;
   className?: string;
+  phone?: string;
 }) {
   return (
     <a
       className={`button button-outline ${className}`}
-      href={`tel:${business.phone.replace(/\s/g, "")}`}
+      href={`tel:${phone.replace(/\s/g, "")}`}
     >
       <Phone size={17} />
       {children}

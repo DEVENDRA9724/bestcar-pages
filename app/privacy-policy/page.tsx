@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { business } from "@/lib/business";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   alternates: { canonical: "/privacy-policy/" },
@@ -55,7 +56,15 @@ export default function Privacy() {
       <h2>CONTACT</h2>
       <p>
         For questions about your enquiry or information shared with the
-        business, call <a href="tel:+919913408885">+91 99134 08885</a> or visit
+        business, call{" "}
+        <a href={`tel:${business.phone.replace(/\s/g, "")}`}>
+          {business.phone}
+        </a>
+        {" or "}
+        <a href={`tel:${business.alternatePhone.replace(/\s/g, "")}`}>
+          {business.alternatePhone}
+        </a>{" "}
+        or visit
         the store during opening hours, 9 AM–9 PM daily.
       </p>
     </article>

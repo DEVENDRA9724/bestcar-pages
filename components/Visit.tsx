@@ -34,7 +34,8 @@ export default function Visit() {
           </div>
         </div>
         <div className="inline-actions">
-          <Call>+91 99134 08885</Call>
+          <Call>{business.phone}</Call>
+          <Call phone={business.alternatePhone}>{business.alternatePhone}</Call>
           <a
             className="text-link"
             href={mapsUrl}

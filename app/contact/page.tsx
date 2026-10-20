@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { EstimateForm } from "@/components/Enquiry";
 import Visit from "@/components/Visit";
+import { business } from "@/lib/business";
 export const metadata: Metadata = {
   title: "Visit & Contact | Mithakhali, Ahmedabad",
   description:
-    "Visit Best Car Accessories at Urvashi Complex, Mithakhali Circle, Navrangpura, Ahmedabad. Open daily 9 AM–9 PM. Call or WhatsApp +91 99134 08885.",
+    `Visit Best Car Accessories at Urvashi Complex, Mithakhali Circle, Navrangpura, Ahmedabad. Open daily 9 AM–9 PM. Call ${business.phone} or ${business.alternatePhone}. WhatsApp ${business.phone}.`,
   alternates: { canonical: "/contact/" },
 };
 export default function Contact() {

@@ -47,7 +47,7 @@ export function businessSchema(origin: string) {
     "@type": "AutoPartsStore",
     name: business.name,
     url: origin,
-    telephone: business.phone,
+    telephone: [business.phone, business.alternatePhone],
     image: `${origin}/logo.png`,
     address: {
       "@type": "PostalAddress",
