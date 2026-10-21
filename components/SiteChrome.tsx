@@ -25,7 +25,7 @@ export function Logo() {
     >
       <Image
         src="/logo.png"
-        alt="Best Car Accessories — Upgrade Your Ride"
+        alt="Best Car Accessories — Upgrade Your Car"
         fill
         sizes="(max-width:600px) 220px, 300px"
         priority
@@ -158,7 +158,7 @@ export function Footer() {
         <div className="container footer-bottom">
           <span>© {new Date().getFullYear()} Best Car Accessories</span>
           <Link href="/privacy-policy/">Privacy policy</Link>
-          <span>UPGRADE YOUR RIDE.</span>
+          <span>UPGRADE YOUR CAR.</span>
         </div>
       </footer>
       <div

@@ -7,13 +7,13 @@ import MotionEnhancements from "@/components/MotionEnhancements";
 export const metadata: Metadata = {
   metadataBase: new URL(origin),
   title: {
-    default: "Best Car Accessories Ahmedabad | Upgrade Your Ride",
+    default: "Best Car Accessories Ahmedabad | Upgrade Your Car",
     template: "%s | Best Car Accessories",
   },
   description:
     "Explore car accessories at Mithakhali Circle, Ahmedabad. Android screens, car audio installation, seat covers in Navrangpura and in-house fitting. Get a quote on WhatsApp.",
   openGraph: {
-    title: "Best Car Accessories — Upgrade Your Ride",
+    title: "Best Car Accessories — Upgrade Your Car",
     description:
       "Your car. Your way. Accessories and in-house fitting in Mithakhali, Ahmedabad.",
     images: [{ url: "/logo.png", width: 1536, height: 1024 }],

@@ -69,7 +69,7 @@ export default function Home() {
             <br />
             YOUR WAY.
           </h1>
-          <p className="hero-tagline">UPGRADE YOUR RIDE.</p>
+          <p className="hero-tagline">UPGRADE YOUR CAR.</p>
           <p>
             Better sound. More comfort. A look that’s yours.
             <br />

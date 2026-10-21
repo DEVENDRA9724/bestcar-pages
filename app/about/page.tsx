@@ -30,7 +30,7 @@ export default function About() {
           />
         </div>
         <div>
-          <span className="eyebrow">UPGRADE YOUR RIDE.</span>
+          <span className="eyebrow">UPGRADE YOUR CAR.</span>
           <h2>
             BETTER DETAILS.
             <br />

@@ -1,4 +1,4 @@
-# Best Car Accessories — Upgrade Your Ride
+# Best Car Accessories — Upgrade Your Car
 
 Mobile-first, statically generated retail catalogue for the Mithakhali, Ahmedabad store. Built with Next.js 14 App Router, TypeScript, Tailwind CSS, Next Image and Lucide. Prepared for Cloudflare Pages. All enquiries open WhatsApp or a telephone link; there is no cart, checkout, payment processor or customer database.
 
